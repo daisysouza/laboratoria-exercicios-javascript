@@ -1,0 +1,23 @@
+const coinConvert = (dollars) => {
+  const soles = dollars * 3.25;
+  const pesosMexicanos = dollars * 18;
+  const pesosChilenos = dollars * 660;
+
+  return [soles, pesosMexicanos, pesosChilenos];
+};
+
+module.exports = coinConvert;
+
+
+
+--------------
+
+const restaurantBill = (bill) => {
+  const tax = bill * 0.1;
+
+  const total = bill + tax;
+
+  return `$${total / 5}`;
+};
+
+module.exports = restaurantBill;

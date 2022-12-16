@@ -1,0 +1,11 @@
+Ganhos e perdas: Crie um programa que peça os ingressos, 
+os custos e o % de impostos, e calcule o ganho depois de impostos.
+ Deve imprimir o resultado no site com o símbolo $ na frente.
+
+ Tarefas:
+ - Criar um arquivo HTML
+ - Criar um arquivo JavaScript
+ - Fazer uma estrutura HTML da página
+ - Perguntar as entradas, saídas e a porcentagem de impostos
+ - Mostrar a renda líquida na página web
+ 
