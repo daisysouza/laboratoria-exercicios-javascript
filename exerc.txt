@@ -13,11 +13,11 @@ module.exports = coinConvert;
 --------------
 
 const restaurantBill = (bill) => {
-  const tax = bill * 0.1;
+  const tax = bill*0.1;
 
-  const total = bill + tax;
+  var total = bill + tax;
 
-  return `$${total / 5}`;
+  return '$' + (total/5);
 };
 
 module.exports = restaurantBill;
